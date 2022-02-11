@@ -12,6 +12,17 @@
   padding-right: 65px;
 }
 
-.promo__buttons>* { // >* Означает для всех дочерних элементов
+.promo__title {
+  margin: 0 0 30px;
+}
+
+.promo__text {
+  @extend %font-add;
+  @include font($size: 1.8rem, $height: 2.8rem, $weight: normal);
+  max-width: 487px;
+  margin: 0 0 45px;
+}
+
+.promo__buttons > * { // >* Означает для всех дочерних элементов
   margin-right: 44px;
 }

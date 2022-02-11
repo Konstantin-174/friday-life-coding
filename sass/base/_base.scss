@@ -5,28 +5,27 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: 'Open Sans', 'Verdana', sans-serif;
+  @extend %font-prim;
+  @include font($weight: normal, $size: 1.6rem, $height: 2.6rem);
 }
 
 h1 {
-  @include font(44px, bold, 54px); // Не передаем font-style: normal, т.к. он указан в параметрах миксина по умолчанию
-
-  font-family: 'Poppins', 'Verdana', sans-serif;
+  @extend %font-add;
+  @include font(4.4rem, bold, 5.4rem); // Не передаем font-style: normal, т.к. он указан в параметрах миксина по умолчанию
 }
 
 h2 {
-  @include font(34px, bold, 46px);
+  @include font($weight: bold, $size: 3.4rem, $height: 4.6rem); // Параметры можно менять местами, если указать переменную
 }
 
 h3 {
-  @include font(24px, bold, 34px);
+  @include font(2.4rem, bold, 3.4rem);
 }
 
 h4 {
-  @include font (22px, 600, 30px);
+  @include font(2.2rem, 600, 3.0rem);
 }
 
 h5 {
-  @include font (16px, bold, 26px);
+  @include font(1.6rem, bold, 2.6rem);
 }
