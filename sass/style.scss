@@ -1,8 +1,12 @@
-html {
-    font-size: 10px;
-}
+// Нижнее подчеркивание перед названием файлов _base.scss нужно для автоматичечкой сборки в файл style.css
+// Команда --watch в "style" файла package.json нужна для автоматической компиляции файла style.css
 
-body {
-    font-size: 1.6rem;
-    font-family: 'Open Sans', 'Verdana', sans-serif;
-}
+@import "abstract/constants";
+@import "base/base";
+
+// Layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+
+// Components
+@import "components/contact-us";
