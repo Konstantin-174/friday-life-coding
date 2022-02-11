@@ -1,0 +1,20 @@
+{
+  "name": "friday_life_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Konstantin-174/friday-life-coding.git"
+  },
+  "author": "Konstantin Timokhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Konstantin-174/friday-life-coding/issues"
+  },
+  "homepage": "https://github.com/Konstantin-174/friday-life-coding#readme"
+}
