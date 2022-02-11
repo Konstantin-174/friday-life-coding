@@ -1,0 +1,8 @@
+// $style: normal это параметр по умолчанию и, если его менять не нужно, то в селекторы его можно не передавать. (см. _base.scss)
+
+@mixin font ($size, $weight, $height, $style: normal) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  font-style: $style;
+}
