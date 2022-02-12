@@ -1,8 +1,8 @@
-.navigation__link, .logo-path, .button {
+.navigation__link, .logo-path, .button, .footer-navigation__links a {
   transition: all 0.3s ease-out;
 }
 
-.link-button, .promo__text, h1 {
+.link-button, .footer-navigation__links, .promo__text, h1 {
   font-family: "Poppins", "Verdana", sans-serif;
 }
 
@@ -569,6 +569,39 @@ h5 {
 
 .contact-us__button > * {
   min-width: 117px;
+}
+
+.footer {
+  padding: 60px 0 70px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  padding-left: 152px;
+}
+
+.footer-navigation__title {
+  margin: 0 0 15px;
+}
+
+.footer-navigation__links {
+  padding: 0;
+  list-style: none;
+}
+.footer-navigation__links a {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 3.5rem;
+  font-style: normal;
+  color: #544837;
+  text-decoration: none;
+}
+.footer-navigation__links a:hover {
+  color: #FF9900;
 }
 
 .button {
