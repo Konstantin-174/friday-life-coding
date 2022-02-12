@@ -1,3 +1,15 @@
+.navigation__link, .logo-path, .button {
+  transition: all 0.3s ease-out;
+}
+
+.link-button, .promo__text, h1 {
+  font-family: "Poppins", "Verdana", sans-serif;
+}
+
+.button, body {
+  font-family: "Open Sans", "Verdana", sans-serif;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -391,18 +403,6 @@ h5 {
   font-style: normal;
 }
 
-.navigation__link, .logo-path, .button {
-  transition: all 0.3s ease-out;
-}
-
-.link-button, .promo__text, h1 {
-  font-family: "Poppins", "Verdana", sans-serif;
-}
-
-.button, body {
-  font-family: "Open Sans", "Verdana", sans-serif;
-}
-
 .wrapper {
   max-width: 1197px;
   margin: auto;
@@ -457,6 +457,61 @@ h5 {
 
 .promo__buttons > * {
   margin-right: 44px;
+}
+
+.tools__wrapper {
+  padding-bottom: 90px;
+  background-image: url("../img/tools/bg.png");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tools__title {
+  margin: auto;
+  margin-bottom: 70px;
+  width: 462px;
+  text-align: center;
+}
+
+.tools__button {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool__title {
+  margin: 0 0 16px;
+}
+
+.layout-4-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-4-column > * {
+  flex-basis: 21%;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 45%;
 }
 
 .contact-us {
@@ -525,10 +580,37 @@ h5 {
   cursor: pointer;
 }
 
+.icon-square {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+}
+.icon-square_violet {
+  background-color: #7752BE;
+}
+.icon-square_yellow {
+  background-color: #FAB005;
+}
+.icon-square_red {
+  background-color: #F03E3D;
+}
+.icon-square_blue {
+  background-color: #4DADF7;
+}
+
 .ico_play {
   background-image: url("../img/icons/play.svg");
   width: 18px;
   height: 19px;
+}
+
+.ico-arrow {
+  background-image: url("../img/tools/ico_arrow_0.svg");
+  width: 12px;
+  height: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */

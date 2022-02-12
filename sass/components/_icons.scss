@@ -3,8 +3,40 @@
   cursor: pointer;
 }
 
+.icon-square {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+
+  &_violet {
+    background-color: $color-violet;
+  }
+
+  &_yellow {
+    background-color: $color-yellow;
+  }
+
+  &_red {
+    background-color: $color-red;
+  }
+
+  &_blue {
+    background-color: $color-blue;
+  }
+}
+
 .ico_play {
   background-image: url("../img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
+
+.ico-arrow {
+  background-image: url("../img/tools/ico_arrow_0.svg");
+  width: 12px;
+  height: 17px;
+}
+
