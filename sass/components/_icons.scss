@@ -35,8 +35,33 @@
 }
 
 .ico-arrow {
-  background-image: url("../img/tools/ico_arrow_0.svg");
   width: 12px;
   height: 17px;
+  background-image: url("../img/tools/ico_arrow_0.svg");
 }
+
+.ico_theme {
+  display: inline-flex;
+  justify-content: center;
+  background-color: $color-light;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  border-radius: 50%;
+
+  &-phone {
+    background-image: url("../img/contact_us/phone.svg");
+    width: 13px;
+    height: 13px;
+    transform: matrix(0.95, 0.18, -0.34, 0.98, 0, 0);
+  }
+
+  &-email {
+    background-image: url("../img/contact_us/mail.svg");
+    width: 11px;
+    height: 8px;
+  }
+}
+
+
 

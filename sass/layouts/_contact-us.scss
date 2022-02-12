@@ -3,6 +3,22 @@
   padding: 62px 82px;
 }
 
+.contact-us__title {
+  margin: 0 0 17px 0;
+}
+
+.contact-us__discription {
+  @include font($size: 1.6rem, $weight: normal, $height: 2.6rem);
+  margin: 0 0 33px 0;
+}
+
+.contact-item {
+  @include font($size: 2.5rem, $weight: normal, $height: 2.6rem);
+  text-decoration: none;
+  color: $color-text;
+  margin-left: 11px;
+}
+
 .contact-us__form {
   input, textarea {
     border: 1px solid $color-light;
@@ -28,7 +44,7 @@
 }
 
 .contact-us__button {
-  >* {
+  > * {
     min-width: 117px;
   }
 }

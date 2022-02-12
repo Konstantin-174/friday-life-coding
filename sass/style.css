@@ -542,9 +542,88 @@ h5 {
   margin: 0 0 29px;
 }
 
+.about-us {
+  padding: 30px 0 100px 0;
+}
+
+.about-us__title {
+  margin: 0 0 14px;
+}
+
+.about-us__discription {
+  margin: 0 0 45px;
+}
+
+.employee_container {
+  padding-right: 32px;
+}
+
+.employee {
+  display: flex;
+  padding: 35px;
+  position: relative;
+  width: calc(30% - 32px);
+}
+
+.employee__name {
+  margin: 0;
+}
+
+.employee__title {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 2.6rem;
+  font-style: normal;
+  margin: 0;
+}
+
+.employee__contact {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 2.6rem;
+  font-style: normal;
+  text-decoration: none;
+  color: #1943EF;
+}
+.employee__contact:hover {
+  text-decoration: underline;
+}
+
+.employee__photo {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: -32px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
 .contact-us {
   background: #FFEEE1;
   padding: 62px 82px;
+}
+
+.contact-us__title {
+  margin: 0 0 17px 0;
+}
+
+.contact-us__discription {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 2.6rem;
+  font-style: normal;
+  margin: 0 0 33px 0;
+}
+
+.contact-item {
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2.6rem;
+  font-style: normal;
+  text-decoration: none;
+  color: #544837;
+  margin-left: 11px;
 }
 
 .contact-us__form input, .contact-us__form textarea {
@@ -694,9 +773,30 @@ h5 {
 }
 
 .ico-arrow {
-  background-image: url("../img/tools/ico_arrow_0.svg");
   width: 12px;
   height: 17px;
+  background-image: url("../img/tools/ico_arrow_0.svg");
+}
+
+.ico_theme {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  border-radius: 50%;
+}
+.ico_theme-phone {
+  background-image: url("../img/contact_us/phone.svg");
+  width: 13px;
+  height: 13px;
+  transform: matrix(0.95, 0.18, -0.34, 0.98, 0, 0);
+}
+.ico_theme-email {
+  background-image: url("../img/contact_us/mail.svg");
+  width: 11px;
+  height: 8px;
 }
 
 .tags {
