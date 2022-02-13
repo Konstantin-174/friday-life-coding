@@ -772,10 +772,28 @@ h5 {
   height: 19px;
 }
 
-.ico-arrow {
+.ico_arrow-violet {
   width: 12px;
   height: 17px;
   background-image: url("../img/tools/ico_arrow_0.svg");
+}
+
+.ico_arrow-yellow {
+  width: 18px;
+  height: 14px;
+  background-image: url("../img/tools/ico_arrow_1.svg");
+}
+
+.ico_arrow-red {
+  width: 17px;
+  height: 15px;
+  background-image: url("../img/tools/ico_arrow_2.svg");
+}
+
+.ico_arrow-blue {
+  width: 15px;
+  height: 17px;
+  background-image: url("../img/tools/ico_arrow_3.svg");
 }
 
 .ico_theme {

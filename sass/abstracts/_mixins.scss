@@ -15,3 +15,8 @@
     flex-basis: $width;
   }
 }
+
+@mixin ico-arrow ($width, $height) {
+  width: $width;
+  height: $height;
+}
