@@ -1,0 +1,2 @@
+## Hi everyone!
+* This is my [training project](https://konstantin-174.github.io/friday-life-coding/) by mentoring from [Rolling Scopes School](https://youtube.com/playlist?list=PLUPlnlZ9LRNGzGk7C-KAC3e9wVT14tUC5)
