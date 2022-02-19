@@ -1,7 +1,11 @@
 // Для изменения цвета необходимо в *.svg вставить две первые строчки как в logo.svg <?xml version="1.0" ...
 
 .logo {
-  padding: 10px 0 0;
+  display: flex;
+}
+
+.logo-object {
+  width: 160px;
 }
 
 .logo-path {

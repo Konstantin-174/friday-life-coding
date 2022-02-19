@@ -10,6 +10,12 @@ body {
 h1 {
   @extend %font-add;
   @include font(4.4rem, bold, 5.4rem); // Не передаем font-style: normal, т.к. он указан в параметрах миксина по умолчанию
+  @include media-mobile {
+    @include font(3.2rem, 700, 4.2rem);
+  }
+  @include media-mobile {
+    text-align: center;
+  }
 }
 
 h2 {
