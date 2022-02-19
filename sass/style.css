@@ -407,14 +407,19 @@ h5 {
   max-width: 1197px;
   margin: auto;
 }
+@media (max-width: 1197px) {
+  .wrapper {
+    padding: 0 46px;
+  }
+}
 
 .header {
   background: #FFFFFF;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   padding: 15px 0 17px 0;
 }
 
-.header__wrapper {
+.header__logo-line {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -613,7 +618,8 @@ h5 {
   font-weight: normal;
   line-height: 2.6rem;
   font-style: normal;
-  margin: 0 0 33px 0;
+  padding: 0 61px 43px 0;
+  margin: 0;
 }
 
 .contact-item {
@@ -683,6 +689,41 @@ h5 {
   color: #FF9900;
 }
 
+.hamburger__line, .hamburger:after, .hamburger:before {
+  display: inline-block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #173A56;
+  border-radius: 5px;
+  content: "";
+}
+
+.hamburger {
+  display: none;
+  position: relative;
+  width: 31px;
+  height: 24px;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+}
+.hamburger:before {
+  top: 0;
+  left: 0;
+}
+.hamburger:after {
+  bottom: 0;
+  left: 0;
+}
+
+.hamburger__line {
+  top: calc(50% - 1.5px);
+  left: 0;
+}
+
 .button {
   padding: 11px 25px 13px;
   font-style: normal;
@@ -719,6 +760,10 @@ h5 {
 
 .link-button__text {
   margin-left: 9px;
+}
+
+.logo {
+  padding: 10px 0 0;
 }
 
 .logo-svg:hover .logo-path {

@@ -9,7 +9,8 @@
 
 .contact-us__discription {
   @include font($size: 1.6rem, $weight: normal, $height: 2.6rem);
-  margin: 0 0 33px 0;
+  padding: 0 61px 43px 0;
+  margin: 0;
 }
 
 .contact-item {
