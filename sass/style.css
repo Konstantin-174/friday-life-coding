@@ -854,7 +854,7 @@ h5 {
 }
 
 .logo {
-  display: flex;
+  display: block;
 }
 
 .logo-object {
